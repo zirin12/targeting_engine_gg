@@ -1,3 +1,4 @@
+// Legacy prototype — not wired into the modular system. Preserved for reference.
 package main
 
 import (
