@@ -21,7 +21,7 @@ Returns campaigns that match provided dimensions:
 ```curl 'http://localhost:8080/v1/delivery?country=IN&app=com.foo.app&os=android'```
 
 ### Response:
-- Query keys are validated against ValidDimensions()
+- Query keys are validated against valid dimensions
 - Missing required keys return 400 Bad Request
 - If no match is found: 204 No Content
 - Successful match: JSON array of campaigns
